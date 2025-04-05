@@ -19,6 +19,33 @@ header{
     gap: 50px;
 }
 
+nav{
+    background-color: rgba(127, 255, 212, 0.3);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+nav a {
+    background-color: rgb(0, 135, 253);
+    color: blue;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid blue;
+    box-shadow: 2px 4px 30px 3px blue ;
+}
+
+nav a:hover{
+    background-color: blue;
+    color: rgb(0, 135, 253);
+}
+
+
+
 body{
     background-image: url(Imagenes/fondo.jpg) ;
     background-repeat: no-repeat;
@@ -26,7 +53,7 @@ body{
 }
 
 footer{
-    background-color: rgb(211, 82, 240);
+    background-color: rgb(211, 82, 240, 0.3);
     height: 45px;
 }
 
@@ -56,6 +83,23 @@ img{
 .dos{
     width: 45%;
 }
+.col3 img{
+    width: 40%;
+}
+
+.col3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed rgb(255, 255, 255);
+    width: 33%;
+    padding: 2rem;
+}
+
+.dos img{
+    width: 56%;
+}
+
 .galeria{
     display: flex;
     flex-wrap: wrap;
@@ -64,4 +108,24 @@ img{
     width: 200px;
     border-radius: 20px;
 
+}
+
+#diferente{
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+.imagen{
+    width: 40%;
+    margin: auto;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 50%;
+
+    
+}
+
+.imagen img:hover{
+    filter: sepia(100%);
 }
